@@ -12,16 +12,32 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>HSTATgram</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="Name"><br> E-mail:
+            <input type="email" name="email" placeholder="E-mail"><br>
 
             <!--add your own inputs below-->
-
+            Username:
+            <input type="text" name="username" placeholder="Username" required><br>
+            Password:
+            <input type="password" name="password" required><br>
+            Re-Type Password:
+            <input type="password" name="password" required><br>
+            Bio:<br>
+            <textarea name="message" placeholder="Who are you?"></textarea><br>
+            <select name="sex">
+                <option value="male" selected>Male</option>
+                <option value="female" >Female</option>
+            </select><br>
+            Who do you want to view your profile?<br>
+            <input type="radio" name="viewer" value="Public">Public<br>
+            <input type="radio" name="viewer" value="Private">Private<br>    
+                
+                
 
 
 
